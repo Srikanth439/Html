@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Demo Quiz</title>
+    <style media="screen">
+      body{
+        background:lightgray;
+      }
+      #question-container{
+        background:white;
+      }
+      .btn{
+        color:blue;
+      }
+      #start-btn{
+        background-color: yellow;
+            color: black;
+            text-align: center;
+            font-size: 50px;
+      }
+    </style>
+  </head>
+  <center>
+    <div id="enter"><h1>Welcome To Quiz</h1>
+
+    </div>
+  <div id="question-container" >
+    <div id="questionbox" style="visibility: hidden">
+      <h1>Select One Correct Answer</h1>
+      <div id="Question"><strong><h1>Question</h1></strong></div>
+      <div id="answers-container" class="ans-btn">
+        <ul>
+          <li><button class="btn 1">Choice1</li><br>
+          <li><button class="btn 2">Choice2</li><br>
+          <li><button class="btn 3">Choice3</li><br>
+
+
+        </ul>
+
+
+      </div>
+
+      <div id="opt" style="visibility: hidden">
+        <h3>Score</h3>
+        <button type="button" name="button" id="score">0</button>
+      </div>
+      <div id="final" style="visibility: hidden">
+        <h3>Your Quiz Is completed</h3>
+
+
+
+      </div>
+
+    </div>
+    <div class="Controls">
+      <br>
+      <button type="button" name="button" id="start-btn">Start</button>
+      <button type="button" name="button" id="next-btn" style="visibility: hidden">Next</button>
+
+
+    </div>
+
+  </div>
+  </center>
+  <body>
+
+  </body>
+  <script src="Question.js">
+
+  </script>
+</html>
