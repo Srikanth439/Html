@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Current Time</title>
+	
+</head>
+<body>
+	<p>Current date and time   <span id="date-time"></span></p>
+	<script type="text/javascript">
+		var date = new Date().toLocaleDateString();
+		var time = new Date().toLocaleTimeString()
+		document.getElementById('date-time').innerHTML = date+" "+time;
+	</script>
+</body>
+</html>
